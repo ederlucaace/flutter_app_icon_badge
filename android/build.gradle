@@ -48,7 +48,7 @@ android {
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
     kotlinOptions {
-        jvmTarget = "17"           // era "1.8"
+        jvmTarget = "11"           // era "1.8"
         // Opcional → habilita o toolchain novo:
         // jvmToolchain(17)
     }
